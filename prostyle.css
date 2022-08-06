@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Luckiest+Guy&family=Sacramento&display=swap');
+* {
+    margin: 0px;
+    padding: opx;
+}
+
+body {
+    background-image: url("Vine.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.child {
+    padding: 20px;
+    width: 30%;
+    height: 200px;
+    background-color: rgba(177, 252, 215, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.img {
+    width: 180px;
+    height: 200px;
+    background-color: rgb(218, 24, 24);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.myimage {
+    width: 100%;
+    height: 100%;
+    background-image: url("avikasaxena.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#a:hover {
+    color: red;
+}

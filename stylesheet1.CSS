@@ -1,0 +1,231 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    background-image: url("istock-894058154.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.iconbox {
+    width: 100%;
+    height: 2cm;
+    background-color: rgba(0, 0, 0, 0.841);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 10%;
+    height: 150px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.inside_img {
+    width: 100%;
+    height: 100%;
+    background-image: url("avikasaxena.jpg");
+    background-size: cover;
+}
+
+.h1box {
+    width: 250px;
+    height: 2cm;
+    border-width: thick;
+    border-style: groove;
+    border-color: rgba(255, 255, 255, 0.503);
+    background-color: rgba(108, 108, 108, 0.475);
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: cornsilk;
+    font-style: italic;
+}
+
+h2 {
+    color: cornsilk;
+    font-style: oblique;
+}
+
+nav {
+    width: 100%;
+    height: 1.1cm;
+    background-color: rgb(242, 43, 43);
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-underline-position: below;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin-left: 45px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav a:hover {
+    height: 1.1cm;
+    border-width: 2px;
+    border-color: maroon;
+    box-sizing: content-box;
+    background-color: rgba(127, 129, 130, 0.484);
+}
+
+.contentbox1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("pic1.jpg");
+    background-repeat: round1;
+    background-size: cover;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.contentbox2 {
+    margin-top: 50px;
+    width: 25%;
+    height: 50%;
+    background-color: rgba(119, 119, 119, 0.259);
+    border-style: groove;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentbox3 {
+    margin-top: 150px;
+    width: 25%;
+    height: 50%;
+    background-color: rgba(119, 119, 119, 0.259);
+    border-style: groove;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentbox4 {
+    margin-top: 300px;
+    width: 25%;
+    height: 50%;
+    background-color: rgba(119, 119, 119, 0.259);
+    background-attachment: fixed;
+    border-style: groove;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit {
+    color: rgb(227, 224, 224);
+    text-shadow: rgb(18, 53, 255);
+    text-transform: capitalize;
+    text-decoration-style: wavy;
+}
+
+.para {
+    padding: 20px;
+    color: rgb(227, 224, 224);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.con_footer {
+    margin: 0px;
+    width: 100%;
+    height: 70vh;
+    background-image: url("Deep Space.jpg");
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner_box1 {
+    margin-top: 20px;
+    width: 10%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_box2 {
+    margin-top: 20px;
+    width: 10%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner_box3 {
+    margin-top: 20px;
+    width: 10%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer div li {
+    margin-top: 20px;
+    color: white;
+}
+
+.masters {
+    font-size: 20px;
+    color: rgb(227, 227, 227);
+}
+
+html {
+    scroll-behavior: smooth;
+}

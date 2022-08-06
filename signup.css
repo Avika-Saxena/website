@@ -1,0 +1,59 @@
+body {
+    background-image: url("istock-894058154.jpg");
+    background-size: cover;
+    margin: 0px;
+}
+
+.logo {
+    background-image: url("logonew.png");
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_inside {
+    border-style: groove;
+    border-width: thick;
+    border-color: rgb(151, 150, 150);
+    background-color: rgba(88, 65, 51, 0.741);
+    width: 35%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form {
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+
+.formbox {
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.form:hover {
+    color: yellow;
+}
+
+#submit:hover {
+    color: blue;
+}
+
+#reset:hover {
+    color: blue;
+}
+
+#Register:hover {
+    color: blue
+}
